@@ -175,46 +175,77 @@
 //     Dolphine's: ${dolphinesScore.toFixed(0)} - ${koalasScore.toFixed(0)} Koala's`);
 // };
 
-const day = 'monday';
+// const day = 'monday';
 
-switch(day) { 
-    case 'monday':
-    console.log('Poniedziałek');
-    break;
-    case 'tuesday':
-    console.log('Wtorek');
-    break;
-    case 'wednesday':
-    console.log('Środa');
-    break;
-    case 'thursday':
-    console.log('Czwartek');
-    break;
-    case 'friday':
-    console.log('Piątek');
-    break;
-    case 'saturday':
-    console.log('Sobota');
-    break;
-    case 'sunday':
-    console.log('Niedziela');
-    break;
-    default: 
-    console.log('Not a valid Day!');
-}
+// switch(day) { 
+//     case 'monday':
+//     console.log('Poniedziałek');
+//     break;
+//     case 'tuesday':
+//     console.log('Wtorek');
+//     break;
+//     case 'wednesday':
+//     console.log('Środa');
+//     break;
+//     case 'thursday':
+//     console.log('Czwartek');
+//     break;
+//     case 'friday':
+//     console.log('Piątek');
+//     break;
+//     case 'saturday':
+//     console.log('Sobota');
+//     break;
+//     case 'sunday':
+//     console.log('Niedziela');
+//     break;
+//     default: 
+//     console.log('Not a valid Day!');
+// }
 
-if(day === 'monday') {
-    console.log('Poniedziałek');
-} else if (day === 'tuesday') {
-    console.log('Wtorek');
-} else if (day === 'thursday' || day === 'wednesday') {
-    console.log('Write code examples');
-} else if (day === 'friday') {
-    console.log('Piątek');
-} else if (day === 'saturday') {
-    console.log('Sobota');
-} else if (day === 'sunday') {
-    console.log('Niedziela');
-} else {
-    console.log('Not a valid Day!');
-}
+// if(day === 'monday') {
+//     console.log('Poniedziałek');
+// } else if (day === 'tuesday') {
+//     console.log('Wtorek');
+// } else if (day === 'thursday' || day === 'wednesday') {
+//     console.log('Write code examples');
+// } else if (day === 'friday') {
+//     console.log('Piątek');
+// } else if (day === 'saturday') {
+//     console.log('Sobota');
+// } else if (day === 'sunday') {
+//     console.log('Niedziela');
+// } else {
+//     console.log('Not a valid Day!');
+// }
+
+// const age = 17;
+
+// const drink = age >= 18 ? 'Wine 🍷' : 'Milk 🍼'; // skrócony zapis porwównania
+// console.log(drink);
+
+
+// let drink2;
+// if(age >= 18) {
+//     drink2 = 'Wine 🍷';
+// } else {
+//     drink2 = 'Milk 🍼';
+// }
+// console.log(drink2);
+
+ 
+const price = 40; 
+
+// let tip;
+// if(price >= 50 && price <= 300) {
+//     tip = 15 * price / 100;
+//     console.log(`The bill was ${price}, the tip was ${tip}(15%) and the total value ${price + tip}`);
+// } else {
+//     tip = 20 * price / 100;
+//     console.log(`The bill was ${price}, the tip was ${tip}(20%) and the total value ${price + tip}`);
+// };
+
+const tip = price >= 50 && price <= 300 ? (price * 15 / 100) : (price * 20 / 100);
+console.log(`The bill was: ${price}$, the tip was: ${tip}$(15%), summary: ${price + tip}$`);
+
+
